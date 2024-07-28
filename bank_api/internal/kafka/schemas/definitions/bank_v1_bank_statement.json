@@ -1,0 +1,7 @@
+{
+    "type": "record",
+    "name": "bank_v1_bank_statement",
+    "fields": [
+        {"name": "data", "type": "bytes"}
+    ]
+}

@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "0ea1feae-87bd-43af-a695-7f70f6d4b16d",
+		"name": "Bank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17385921"
+	},
+	"item": [
+		{
+			"name": "Bank Statement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/mubashir/Desktop/remote_test/statement.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/bank/statement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bank",
+						"statement"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

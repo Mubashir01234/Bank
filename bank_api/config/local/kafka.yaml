@@ -1,0 +1,2 @@
+kafkaBrokers: "localhost:9092"
+groupId: "bank-local"
